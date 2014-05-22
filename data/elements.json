@@ -12,6 +12,10 @@
         "domInterface": "HTMLElement"
     },
     {
+        "name": "base",
+        "domInterface": "HTMLBaseElement"
+    },
+    {
         "name": "bdi",
         "domInterface": "HTMLElement"
     },
@@ -32,6 +36,14 @@
         "domInterface": "HTMLElement"
     },
     {
+        "name": "var",
+        "domInterface": "HTMLElement"
+    },
+    {
+        "name": "colgroup",
+        "domInterface": "HTMLTableColElement"
+    },
+    {
         "type": "root",
         "name": "html"
     },
@@ -47,6 +59,14 @@
     {
         "name": "blockquote",
         "domInterface": "HTMLQuoteElement"
+    },
+    {
+        "name": "q",
+        "domInterface": "HTMLQuoteElement"
+    },
+    {
+        "name": "data",
+        "domInterface": "HTMLDataElement"
     },
     {
         "name": "font",
@@ -134,11 +154,16 @@
     },
     {
         "name": "figure",
-        "rev": "HTML5"
+        "rev": "HTML5",
+        "domInterface": "HTMLElement"
     },
     {
         "name": "figcaption",
         "rev": "HTML5"
+    },
+    {
+        "name": "caption",
+        "domInterface": "HTMLTableCaptionElement"
     },
     {
         "name": "details",
@@ -172,6 +197,6 @@
     {
         "name": "canvas",
         "rev": "HTML5",
-        "domInterface":"HTMLCanvasElement"
+        "domInterface": "HTMLCanvasElement"
     }
 ]
