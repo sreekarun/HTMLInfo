@@ -1,130 +1,165 @@
 [
-    {	
-    	"type":"root",
-    	"name":"html"
-	},
-	{
-		"type": "document-metadata",
-		"name": "head"	
-	},
-	{
-		"type": "",
-		"name": "table"
-	},
-	{
-		"name" : "font",
-		"status" : "obsolete"
-	},
-	{
-		"name" : "big",
-		"status" : "obsolete"
-	},
-	{
-		"name" : "center",
-		"status" : "obsolete"
-	},
-	{
-		"name" : "strike",
-		"status" : "obsolete"
-	},
-	{
-		"name" : "frame",
-		"status" : "obsolete"
-	},
-	{
-		"name" : "frameset",
-		"status" : "obsolete"
-	},
-	{
-		"name" : "noframes",
-		"status" : "obsolete"
-	},
-	{
-		"name" : "acronym",
-		"status" : "obsolete"
-	},
-	{
-		"name" : "mark",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "time",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "meter",
-		"rev"	: "HTML5"
-	},
-{
-		"name" : "progress",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "section",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "header",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "hgroup",
-		"rev"	: "HTML5"
-	}
-	{
-		"name" : "footer",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "aside",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "nav",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "article",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "figure",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "figcaption",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "details",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "summary",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "output",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "command",
-		"rev"	: "HTML5"
-	},	
-	{
-		"name" : "menu",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "audio",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "video",
-		"rev"	: "HTML5"
-	},
-	{
-		"name" : "canvas",
-		"rev"	: "HTML5"
-	}
+    {
+        "name": "a",
+        "domInterface": "HTMLAnchorElement"
+    },
+    {
+        "name": "abbr",
+        "domInterface": "HTMLElement"
+    },
+    {
+        "name": "b",
+        "domInterface": "HTMLElement"
+    },
+    {
+        "name": "bdi",
+        "domInterface": "HTMLElement"
+    },
+    {
+        "name": "bdo",
+        "domInterface": "HTMLElement"
+    },
+    {
+        "name": "br",
+        "domInterface": "HTMLBRElement"
+    },
+    {
+        "name": "cite",
+        "domInterface": "HTMLElement"
+    },
+    {
+        "name": "address",
+        "domInterface": "HTMLElement"
+    },
+    {
+        "type": "root",
+        "name": "html"
+    },
+
+    {
+        "type": "document-metadata",
+        "name": "head"
+    },
+    {
+        "type": "",
+        "name": "table"
+    },
+    {
+        "name": "font",
+        "status": "obsolete"
+    },
+    {
+        "name": "big",
+        "status": "obsolete"
+    },
+    {
+        "name": "center",
+        "status": "obsolete"
+    },
+    {
+        "name": "strike",
+        "status": "obsolete"
+    },
+    {
+        "name": "frame",
+        "status": "obsolete"
+    },
+    {
+        "name": "frameset",
+        "status": "obsolete"
+    },
+    {
+        "name": "noframes",
+        "status": "obsolete"
+    },
+    {
+        "name": "acronym",
+        "status": "obsolete"
+    },
+    {
+        "name": "mark",
+        "rev": "HTML5"
+    },
+    {
+        "name": "time",
+        "rev": "HTML5"
+    },
+    {
+        "name": "meter",
+        "rev": "HTML5"
+    },
+    {
+        "name": "progress",
+        "rev": "HTML5"
+    },
+    {
+        "name": "section",
+        "rev": "HTML5"
+    },
+    {
+        "name": "header",
+        "rev": "HTML5"
+    },
+    {
+        "name": "hgroup",
+        "rev": "HTML5"
+    },
+    {
+        "name": "footer",
+        "rev": "HTML5",
+        "domInterface": "HTMLElement"
+    },
+    {
+        "name": "aside",
+        "rev": "HTML5"
+    },
+    {
+        "name": "nav",
+        "rev": "HTML5"
+    },
+    {
+        "name": "article",
+        "rev": "HTML5",
+        "domInterface": "HTMLElement"
+    },
+    {
+        "name": "figure",
+        "rev": "HTML5"
+    },
+    {
+        "name": "figcaption",
+        "rev": "HTML5"
+    },
+    {
+        "name": "details",
+        "rev": "HTML5"
+    },
+    {
+        "name": "summary",
+        "rev": "HTML5"
+    },
+    {
+        "name": "output",
+        "rev": "HTML5"
+    },
+    {
+        "name": "command",
+        "rev": "HTML5"
+    },
+    {
+        "name": "menu",
+        "rev": "HTML5"
+    },
+    {
+        "name": "audio",
+        "rev": "HTML5"
+    },
+    {
+        "name": "video",
+        "rev": "HTML5"
+    },
+    {
+        "name": "canvas",
+        "rev": "HTML5"
+    }
 ]
