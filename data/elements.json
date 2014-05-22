@@ -45,6 +45,10 @@
         "name": "table"
     },
     {
+        "name": "blockquote",
+        "domInterface": "HTMLQuoteElement"
+    },
+    {
         "name": "font",
         "status": "obsolete"
     },
@@ -75,6 +79,11 @@
     {
         "name": "acronym",
         "status": "obsolete"
+    },
+    {
+        "name": "area",
+        "status": "",
+        "domInterface": "HTMLAreaElement"
     },
     {
         "name": "mark",
@@ -111,7 +120,8 @@
     },
     {
         "name": "aside",
-        "rev": "HTML5"
+        "rev": "HTML5",
+        "domInterface": "HTMLElement"
     },
     {
         "name": "nav",
@@ -152,7 +162,8 @@
     },
     {
         "name": "audio",
-        "rev": "HTML5"
+        "rev": "HTML5",
+        "domInterface": "HTMLAudioElement"
     },
     {
         "name": "video",
@@ -160,6 +171,7 @@
     },
     {
         "name": "canvas",
-        "rev": "HTML5"
+        "rev": "HTML5",
+        "domInterface":"HTMLCanvasElement"
     }
 ]
