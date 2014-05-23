@@ -4,6 +4,10 @@
         "domInterface": "HTMLAnchorElement"
     },
     {
+        "name": "button",
+        "domInterface": "HTMLButtonElement"
+    },
+    {
         "name": "abbr",
         "domInterface": "HTMLElement"
     },
@@ -44,6 +48,19 @@
         "domInterface": "HTMLTableColElement"
     },
     {
+        "name": "datalist",
+        "domInterface": "HTMLDataListElement"
+    },
+    {
+        "name": "input",
+        "domInterface": "HTMLInputElement"
+    },
+    {
+        "name": "label",
+        "domInterface": "HTMLLabelElement"
+    },
+
+    {
         "type": "root",
         "name": "html"
     },
@@ -59,6 +76,10 @@
     {
         "name": "blockquote",
         "domInterface": "HTMLQuoteElement"
+    },
+    {
+        "name": "kbd",
+        "domInterface": "HTMLElement"
     },
     {
         "name": "q",
@@ -134,6 +155,30 @@
         "rev": "HTML5"
     },
     {
+        "name": "option",
+        "domInterface": "HTMLOptionElement"
+    },
+    {
+        "name": "form",
+        "domInterface": "HTMLFormElement"
+    },
+    {
+        "name": "select",
+        "domInterface": "HTMLSelectElement"
+    },
+    {
+        "name": "legend",
+        "domInterface": "HTMLLegendElement"
+    },
+    {
+        "name": "title",
+        "domInterface": "HTMLTitleElement"
+    },
+    {
+        "name": "meter",
+        "domInterface": "HTMLMeterElement"
+    },
+    {
         "name": "footer",
         "rev": "HTML5",
         "domInterface": "HTMLElement"
@@ -167,7 +212,8 @@
     },
     {
         "name": "details",
-        "rev": "HTML5"
+        "rev": "HTML5",
+        "domInterface": "HTMLDetailsElement"
     },
     {
         "name": "summary",
