@@ -1,7 +1,12 @@
 [
     {
         "name": "a",
-        "domInterface": "HTMLAnchorElement"
+        "description": "The a element represents a hyperlink",
+        "domInterface": "HTMLAnchorElement",
+        "rev": "html5",
+        "html5Status": "changed",
+        "contentModel":["phrasing","flow"],
+        "endTag": "must"
     },
     {
         "name": "button",
@@ -9,15 +14,24 @@
     },
     {
         "name": "abbr",
-        "domInterface": "HTMLElement"
+        "domInterface": "HTMLElement",
+        "contentModel": ["phrasing"],
+        "description": "The abbr element represents an abbreviation or acronym."
     },
     {
         "name": "b",
         "domInterface": "HTMLElement"
     },
     {
+        "name": "basefont",
+        "endTag": "forbidden",
+        "empty": true,
+        "status": "depricated"
+    },
+    {
         "name": "base",
-        "domInterface": "HTMLBaseElement"
+        "domInterface": "HTMLBaseElement",
+        "endTag": "forbidden"
     },
     {
         "name": "bdi",
@@ -70,6 +84,11 @@
         "name": "head"
     },
     {
+        "name": "meta",
+        "empty": true,
+        "endTag": "forbidden"
+    },
+    {
         "type": "",
         "name": "table"
     },
@@ -91,40 +110,53 @@
     },
     {
         "name": "font",
-        "status": "obsolete"
+        "status": "depricated"
     },
     {
         "name": "big",
-        "status": "obsolete"
+        "status": "depricated"
     },
     {
         "name": "center",
-        "status": "obsolete"
+        "status": "depricated"
     },
     {
         "name": "strike",
-        "status": "obsolete"
+        "status": "depricated"
     },
     {
         "name": "frame",
-        "status": "obsolete"
+        "status": "depricated"
+    },
+    {
+        "name": "s",
+        "status": "depricated"
+    },
+    {
+        "name": "strike",
+        "status": "depricated"
+    },
+    {
+        "name": "u",
+        "status": "depricated"
     },
     {
         "name": "frameset",
-        "status": "obsolete"
+        "status": "depricated"
     },
     {
         "name": "noframes",
-        "status": "obsolete"
+        "status": "depricated"
     },
     {
         "name": "acronym",
-        "status": "obsolete"
+        "status": "depricated"
     },
     {
         "name": "area",
         "status": "",
-        "domInterface": "HTMLAreaElement"
+        "domInterface": "HTMLAreaElement",
+        "endTag": "forbidden"
     },
     {
         "name": "mark",
@@ -198,6 +230,10 @@
         "domInterface": "HTMLElement"
     },
     {
+        "name": "applet",
+        "status": "depricated"
+    },
+    {
         "name": "figure",
         "rev": "HTML5",
         "domInterface": "HTMLElement"
@@ -237,8 +273,16 @@
         "domInterface": "HTMLAudioElement"
     },
     {
+        "name" :"dir",
+        "status":"depricated"
+    },
+    {
         "name": "video",
         "rev": "HTML5"
+    },
+    {
+        "name":"hr",
+        "empty":true
     },
     {
         "name": "canvas",
