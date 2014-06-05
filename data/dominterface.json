@@ -503,7 +503,86 @@
 	},
 	{
 		"name" : "HTMLTextAreaElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes": [
+			{
+				"name" : "autofocus",
+				"type" : "boolean"
+			},
+			{
+				"name" : "cols",
+				"type" : "unsignedlong",
+				"readonly" : true
+			},
+			{
+				"name" : "disabled",
+				"type" : "boolean"
+			},
+			{
+				"name" : "form",
+				"type" : "HTMLFormElement",
+				"readonly" : true
+			},
+			{
+				"name" : "maxLength",
+				"type" : "long"
+			},
+			{
+				"name" : "name",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "readOnly",
+				"type" : "boolean"
+			},
+			{
+				"name" : "required",
+				"type" : "ValidityState"
+			},
+			{
+				"name" : "rows",
+				"type" : "unsignedlong"
+			},
+			{
+				"name" : "wrap",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "defaultValue",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "value",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "willValidate",
+				"type" : "boolean",
+				"readonly" : true
+			},
+			{
+				"name" : "validity",
+				"type" : "ValidityState",
+				"readonly" : true
+			},
+			{
+				"name" : "validationMessage",
+				"type" : "DOMString",
+				"readonly" : true
+			},
+			{
+				"name" : "labels",
+				"type" : "NodeList"
+			},
+			{
+				"name" : "selectionStart",
+				"type" : "unsignedlong"
+			},
+			{
+				"name" : "selectionEnd",
+				"type" : "unsignedlong"
+			}
+		]	
 	},
 	{
 		"name" : "HTMLOutputElement",
