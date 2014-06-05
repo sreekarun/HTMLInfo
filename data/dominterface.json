@@ -25,7 +25,8 @@
 			},
 			{ 
 				"name" : "relList",
-				"type" : "DOMTokenList"
+				"type" : "DOMTokenList",
+				"readonly" : true
 			},
 			{ 
 				"name" : "media",
@@ -59,7 +60,26 @@
 	},
 	{
 		"name" : "HTMLTimeElement",
-		"inherits" : "HTMLElement"
+		"inherits" : "HTMLElement",
+		"attributes" : [
+			{
+				"name" : "dateTime",
+				"type" : "domString"
+			},
+			{
+				"name" : "date",
+				"type" : "Date"
+			},
+			{
+				"name" : "time",
+				"type" : "Date"
+			},
+			{
+				"name" : "timezone",
+				"type" : "Date"
+			}
+
+		]
 	},	
 
 	{
@@ -100,11 +120,52 @@
 	},
 	{
 		"name" : "HTMLProgressElement",
-		"inherits" : "HTMLElement"
+		"inherits" : "HTMLElement",
+		"attributes" : [
+			{
+				"name" : "value",
+				"type" : "float"
+			},
+			{
+				"name" : "max",
+				"type" : "float"
+			},
+			{
+				"name" : "position",
+				"type" : "float"
+			}
+		]
 	},
 	{
 		"name" : "HTMLMeterElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes" : [
+			{
+				"name" : "value",
+				"type" : "float"
+			},
+			{
+				"name" : "min",
+				"type" : "float"
+			},
+			{
+				"name" : "max",
+				"type" : "float"
+			},
+			{
+				"name" : "low",
+				"type" : "float"
+			},
+			{
+				"name" : "high",
+				"type" : "float"
+			},
+			{
+				"name" : "optimum",
+				"type" : "float"
+			}
+
+		]	
 	},
 	{
 		"name" : "HTMLModElement",
@@ -228,7 +289,4 @@
 		"name" : "HTMLLinkElement",
 		"inherits" : "HTMLElement"	
 	}
-
-
-
 ]
