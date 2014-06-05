@@ -84,11 +84,43 @@
 
 	{
 		"name" : "HTMLMetaElement",
-		"inherits" : "HTMLElement"
+		"inherits" : "HTMLElement",
+		"attributes" : [
+			{
+				"name" : "content",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "name",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "httpEquiv",
+				"type" : "DOMString"
+			}
+		]
 	},
 	{
 		"name" : "HTMLStyleElement",
-		"inherits" : "HTMLElement"
+		"inherits" : "HTMLElement",
+		"attributes" : [
+			{
+				"name" : "disabled",
+				"type" : "boolean"
+			},
+			{
+				"name" : "media",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "type",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "scoped",
+				"type" : "boolean"
+			}
+		]
 	},
 	{
 		"name" : "HTMLScriptElement",
@@ -284,7 +316,7 @@
 			{
 				"name" : "form",
 				"type" : "HTMLFormElement",
-				"readonly" : "true"
+				"readonly" : true
 			},
 			{
 				"name" : "width",
@@ -307,24 +339,79 @@
 	},
 	{
 		"name" : "HTMLMapElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes": [
+			{
+				"name" : "name",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "areas",
+				"type" : "HTMLCollection",
+				"readonly" : true
+			},
+			{
+				"name" : "images",
+				"type" : "HTMLCollection",
+				"readonly" : true
+			}
+
+		]	
 	},
 	{
 		"name" : "HTMLAreaElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes" : [
+			{
+				"name" : "alt",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "cords",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "shape",
+				"type" : "DOMString"
+			},				
+			{
+				"name" : "href",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "target",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "ping",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "rel",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "relList",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "media",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "hreflang",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "type",
+				"type" : "DOMString"
+			}
+		]	
 	},
 	{
 		"name" : "HTMLVideoElement",
-		"inherits" : "HTMLElement"	
-	},
-	{
-		"name" : "HTMLTableElement",
-		"inherits" : "HTMLElement"	
-	},
-	{
-		"name" : "HTMLTableColElement",
 		"inherits" : "HTMLElement",
-		"attributes" : [
+				"attributes" : [
 			{
 				"name" : "width",
 				"type" : "DOMString"
@@ -335,7 +422,7 @@
 			},
 			{
 				"name" : "videoWidth",
-				"type" : "unsi"
+				"type" : "unsignedlong"
 			},
 			{
 				"name" : "videoHeight",
@@ -345,7 +432,16 @@
 				"name" : "poster",
 				"type" : "DOMString"
 			}
-		]	
+		]		
+	},
+	{
+		"name" : "HTMLTableElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLTableColElement",
+		"inherits" : "HTMLElement"
+
 	},
 	{
 		"name" : "HTMLTableSectionElement",
@@ -423,6 +519,58 @@
 	},
 	{
 		"name" : "HTMLLinkElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes": [
+			{
+				"name" : "disabled",
+				"type" : "boolean"
+			},
+			{
+				"name" : "href",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "rel",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "relList",
+				"type" : "DOMTokenList"
+			},
+			{
+				"name" : "media",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "hreflang",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "type",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "sizes",
+				"type" : "DOMString"
+			}
+		]		
+	},
+	{
+		"name" : "HTMLSourceElement",
+		"inherits" : "HTMLElement",
+		"attributes": [
+			{
+				"name" : "src",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "type",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "media",
+				"type" : "DOMString"
+			}
+		]	
 	}
 ]
