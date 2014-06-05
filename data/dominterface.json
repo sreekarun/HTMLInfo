@@ -515,7 +515,39 @@
 	},
 	{
 		"name" : "HTMLCommandElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes": [
+			{
+				"name" : "type",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "label",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "icon",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "disabled",
+				"type" : "boolean"
+			},
+			{
+				"name" : "checked",
+				"type" : "boolean"
+			},
+			{
+				"name" : "radiogroup",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "default",
+				"type" : "boolean"
+			}
+			
+
+		]	
 	},
 	{
 		"name" : "HTMLLIElement",
@@ -529,19 +561,66 @@
 	},
 	{
 		"name" : "HTMLBrowserButtonElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes": [
+			{
+				"name" : "type",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "supported",
+				"type" : "boolean"
+			},
+			{
+				"name" : "disabled",
+				"type" : "boolean"
+			}
+			
+
+		]
+
 	},
 	{
 		"name" : "HTMLMenuElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes": [
+			{
+				"name" : "type",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "label",
+				"type" : "DOMString"
+			}
+			
+
+		]	
 	},
 	{
 		"name" : "HTMLLegendElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes": [
+			{
+				"name" : "form",
+				"type" : "HTMLFormElement",
+				"readonly" : true
+			}
+		]
 	},
 	{
 		"name" : "HTMLBaseElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes": [
+			{
+				"name" : "href",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "target",
+				"type" : "DOMString"
+			}
+		]
+
 	},
 	{
 		"name" : "HTMLLinkElement",
