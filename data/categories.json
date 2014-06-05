@@ -1,0 +1,30 @@
+[
+	{
+		"name": "metadatacontent"
+	},
+	{
+		"name": "flowcontent"
+	},
+	{
+		"name": "sectioningroot"
+	},
+	{
+		"name": "sectingingcontent"
+	},
+	{
+		"name": "headingcontent"
+	},
+	{
+		"name": "phrasingcontent"
+	},
+	{
+		"name": "embeddedcontent"
+	},
+	{
+		"name": "interactivecontent"
+	},
+	{
+		"name": "transparent"
+	}
+
+]

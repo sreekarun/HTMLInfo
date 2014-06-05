@@ -5,18 +5,28 @@
         "domInterface": "HTMLAnchorElement",
         "rev": "html5",
         "html5Status": "changed",
-        "contentModel":["phrasing","flow"],
-        "endTag": "must"
+        "contentModel":[],
+        "endTag": "must",
+        "categories": []
     },
     {
         "name": "button",
-        "domInterface": "HTMLButtonElement"
+        "domInterface": "HTMLButtonElement",
+        "categories":["phrasing","flow","interactive"],
+        "contentModel":[]
+    },
+    {
+        "name": "body",
+        "categories":["sectioningroot"],
+        "contentModel":[],
+        "endTag":"optional"
     },
     {
         "name": "abbr",
         "domInterface": "HTMLElement",
-        "contentModel": ["phrasing"],
-        "description": "The abbr element represents an abbreviation or acronym."
+        "contentModel": [],
+        "description": "The abbr element represents an abbreviation or acronym.",
+        "categories": []
     },
     {
         "name": "b",

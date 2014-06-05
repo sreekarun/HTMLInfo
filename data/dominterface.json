@@ -1,0 +1,35 @@
+[
+	{
+		"name" : "HTMLElement",
+		"inheritsFrom" : "Element"
+	},
+	{
+		"name" : "HTMLBodyElement",
+		"inheritsFrom" : "HTMLElement"
+	},	
+
+	{
+		"name" : "HTMLMetaElement",
+		"inheritsFrom" : "HTMLElement"
+	},
+	{
+		"name" : "HTMLStyleElement",
+		"inheritsFrom" : "HTMLElement"
+	},
+	{
+		"name" : "HTMLScriptElement",
+		"inheritsFrom" : "HTMLElement"
+	},
+	{
+		"name" : "HTMLQuoteElement",
+		"inheritsFrom" : "HTMLElement"
+	},
+	{
+		"name" : "HTMLOListElement",
+		"inheritsFrom" : "HTMLElement"
+	}
+
+
+
+
+]
