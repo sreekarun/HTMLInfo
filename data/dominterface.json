@@ -124,7 +124,33 @@
 	},
 	{
 		"name" : "HTMLScriptElement",
-		"inherits" : "HTMLElement"
+		"inherits" : "HTMLElement",
+		"attributes" : [
+			{
+				"name" : "src",
+				"type" : "boolean"
+			},
+			{
+				"name" : "async",
+				"type" : "boolean"
+			},
+			{
+				"name" : "defer",
+				"type" : "boolean"
+			},
+			{
+				"name" : "type",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "charset",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "text",
+				"type" : "DOMString"
+			}
+		]
 	},
 	{
 		"name" : "HTMLQuoteElement",
