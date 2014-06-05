@@ -173,19 +173,129 @@
 	},
 	{
 		"name" : "HTMLImageElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes" : [
+			{
+				"name" : "alt",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "src",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "useMap",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "isMap",
+				"type" : "boolean"
+			},
+			{
+				"name" : "width",
+				"type" : "unsignedlong"
+			},
+			{
+				"name" : "height",
+				"type" : "unsignedlong"
+			},
+			{
+				"name" : "complete",
+				"type" : "boolean"
+			}
+		]	
 	},
 	{
 		"name" : "HTMLIFrameElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes" : [
+			{
+				"name" : "src",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "name",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "sandbox",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "seamless",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "width",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "height",
+				"type" : "DOMString"
+			}
+
+		]	
 	},
 	{
 		"name" : "HTMLEmbedElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes":[
+			{
+				"name" : "src",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "type",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "width",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "height",
+				"type" : "DOMString"
+			}
+
+
+		]
+
 	},
 	{
 		"name" : "HTMLObjectElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes" : [
+			{
+				"name" : "data",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "type",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "name",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "useMap",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "form",
+				"type" : "HTMLFormElement",
+				"readonly" : "true"
+			},
+			{
+				"name" : "width",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "height",
+				"type" : "DOMString"
+			}
+
+		]	
 	},
 	{
 		"name" : "HTMLParamElement",
@@ -204,12 +314,38 @@
 		"inherits" : "HTMLElement"	
 	},
 	{
+		"name" : "HTMLVideoElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
 		"name" : "HTMLTableElement",
 		"inherits" : "HTMLElement"	
 	},
 	{
 		"name" : "HTMLTableColElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes" : [
+			{
+				"name" : "width",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "height",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "videoWidth",
+				"type" : "unsi"
+			},
+			{
+				"name" : "videoHeight",
+				"type" : "unsignedlong"
+			},
+			{
+				"name" : "poster",
+				"type" : "DOMString"
+			}
+		]	
 	},
 	{
 		"name" : "HTMLTableSectionElement",
