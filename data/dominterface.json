@@ -507,11 +507,67 @@
 	},
 	{
 		"name" : "HTMLOutputElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes": [
+			{
+				"name" : "htmlFor",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "form",
+				"type" : "HTMLFormElement",
+				"readonly" : true
+			},
+			{
+				"name" : "name",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "type",
+				"type" : "DOMString",
+				"readonly" : true
+			},
+			{
+				"name" : "defaultValue",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "value",
+				"type" : "DOMString"
+			},
+			{
+				"name" : "willValidate",
+				"type" : "boolean"
+			},
+			{
+				"name" : "validity",
+				"type" : "ValidityState"
+			},
+			{
+				"name" : "validationMessage",
+				"type" : "DOMString"
+			}
+		]
+
 	},
 	{
 		"name" : "HTMLDetailsElement",
-		"inherits" : "HTMLElement"	
+		"inherits" : "HTMLElement",
+		"attributes": [
+			{
+				"name" : "open",
+				"type" : "boolean"
+			},
+						{
+				"name" : "open",
+				"type" : "boolean"
+			},
+						{
+				"name" : "open",
+				"type" : "boolean"
+			}
+		]	
+
 	},
 	{
 		"name" : "HTMLCommandElement",
