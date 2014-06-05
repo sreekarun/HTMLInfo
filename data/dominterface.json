@@ -1,35 +1,117 @@
 [
 	{
 		"name" : "HTMLElement",
-		"inheritsFrom" : "Element"
+		"inherits" : "Element"
+	},
+	{
+		"name": "HTMLAnchorElement",
+		"inherits" : "HTMLElement",
+		"attributes" : [
+			{ 
+				"name" : "href",
+				"type" : "DOMString"
+			},
+			{ 
+				"name" : "target",
+				"type" : "DOMString"
+			},
+			{ 
+				"name" : "ping",
+				"type" : "DOMString"
+			},
+			{ 
+				"name" : "rel",
+				"type" : "DOMString"
+			},
+			{ 
+				"name" : "relList",
+				"type" : "DOMTokenList"
+			},
+			{ 
+				"name" : "media",
+				"type" : "DOMString"
+			},
+			{ 
+				"name" : "media",
+				"type" : "DOMString"
+			},
+			{ 
+				"name" : "hreflang",
+				"type" : "DOMString"
+			},
+			{ 
+				"name" : "type",
+				"type" : "DOMString"
+			}
+		],
+
+		"methods" : [
+			
+		],
+
+		"events" : [
+		
+		]	
 	},
 	{
 		"name" : "HTMLBodyElement",
-		"inheritsFrom" : "HTMLElement"
+		"inherits" : "HTMLElement"
+	},
+	{
+		"name" : "HTMLTimeElement",
+		"inherits" : "HTMLElement"
 	},	
 
 	{
 		"name" : "HTMLMetaElement",
-		"inheritsFrom" : "HTMLElement"
+		"inherits" : "HTMLElement"
 	},
 	{
 		"name" : "HTMLStyleElement",
-		"inheritsFrom" : "HTMLElement"
+		"inherits" : "HTMLElement"
 	},
 	{
 		"name" : "HTMLScriptElement",
-		"inheritsFrom" : "HTMLElement"
+		"inherits" : "HTMLElement"
 	},
 	{
 		"name" : "HTMLQuoteElement",
-		"inheritsFrom" : "HTMLElement"
+		"inherits" : "HTMLElement"
 	},
 	{
 		"name" : "HTMLOListElement",
-		"inheritsFrom" : "HTMLElement"
+		"inherits" : "HTMLElement"
+	},
+	{
+		"name" : "HTMLProgressElement",
+		"inherits" : "HTMLElement"
+	},
+	{
+		"name" : "HTMLMeterElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLModElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLImageElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLIFrameElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLEmbedElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLObjectElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLParamElement",
+		"inherits" : "HTMLElement"	
 	}
-
-
-
-
 ]
