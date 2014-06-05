@@ -76,11 +76,27 @@
 	},
 	{
 		"name" : "HTMLQuoteElement",
-		"inherits" : "HTMLElement"
+		"inherits" : "HTMLElement",
+		"attributes" : [
+			{
+				"name" : "cite",
+				"type" : "DOMString"
+			}
+		]
 	},
 	{
 		"name" : "HTMLOListElement",
-		"inherits" : "HTMLElement"
+		"inherits" : "HTMLElement",
+		"attributes": [
+			{
+				"name" : "reversed",
+				"type" : "long"
+			},
+			{
+				"name" : "start",
+				"type" : "long"
+			}
+		]
 	},
 	{
 		"name" : "HTMLProgressElement",
@@ -113,5 +129,106 @@
 	{
 		"name" : "HTMLParamElement",
 		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLCanvasElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLMapElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLAreaElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLTableElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLTableColElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLTableSectionElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLTableDataCellElement",
+		"inherits" : "HTMLTableCellElement"	
+	},
+	{
+		"name" : "HTMLFormElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLFieldSetElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLInputElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLButtonElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLSelectElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLOptGroupElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLTextAreaElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLOutputElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLDetailsElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLCommandElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLLIElement",
+		"inherits" : "HTMLElement",
+		"attributes" : [
+			{
+				"name" : "value",
+				"type" : "long"
+			}
+		]	
+	},
+	{
+		"name" : "HTMLBrowserButtonElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLMenuElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLLegendElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLBaseElement",
+		"inherits" : "HTMLElement"	
+	},
+	{
+		"name" : "HTMLLinkElement",
+		"inherits" : "HTMLElement"	
 	}
+
+
+
 ]
